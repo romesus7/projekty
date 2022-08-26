@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres
+    container_name: kava
+    environment:
+      POSTGRES_USER: postgres     # define credentials
+      POSTGRES_PASSWORD: postgres # define credentials
+      POSTGRES_DB: postgres       # define database
+    ports:
+      - 5432:5432                 # Postgres port

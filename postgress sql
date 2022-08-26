@@ -1,0 +1,8 @@
+DROP table IF EXISTS kava;
+
+CREATE TABLE IF NOT EXISTS "kava" (
+id SERIAL PRIMARY KEY,
+"login" TEXT,
+"pass" TEXT,
+"email" text
+);
